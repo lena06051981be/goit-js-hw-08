@@ -30,4 +30,8 @@ function makeImageList(galleryItems) {
 const gallery = new SimpleLightbox('.js-gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
+<<<<<<< Updated upstream
 });
+=======
+});
+>>>>>>> Stashed changes

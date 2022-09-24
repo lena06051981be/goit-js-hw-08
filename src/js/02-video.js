@@ -19,5 +19,5 @@ player.setCurrentTime(localStorage.getItem(fixedTime));
 
 function currentTime(data) {
   localStorage.setItem(fixedTime, data.seconds);
-    // console.log('fixedTime:', localStorage.getItem(fixedTime));
+  // console.log('fixedTime:', localStorage.getItem(fixedTime));
 }

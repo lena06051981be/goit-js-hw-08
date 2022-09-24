@@ -1,7 +1,7 @@
 import throttle from 'lodash.throttle';
 
 const form = document.querySelector('.js-feedback-form');
-const backBtn = document.querySelector('.backBtn')
+const backBtn = document.querySelector('.backBtn');
 const LOCAL_KEY = 'feedback-form-state';
 const dataForm = {};
 

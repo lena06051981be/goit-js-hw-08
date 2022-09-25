@@ -17,7 +17,8 @@ function clearData(evt) {
 
 function onSubmitBtn(event) {
   event.preventDefault();
-  console.log(`Email: ${form.email.value} message: ${form.message.value}`);
+  console.log(JSON.parse(localStorage.getItem(LOCAL_KEY)));
+  // console.log(`Email: ${form.email.value} message: ${form.message.value}`);
   event.currentTarget.reset();
   localStorage.removeItem(LOCAL_KEY);
 }

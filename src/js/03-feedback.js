@@ -11,8 +11,8 @@ backBtn.addEventListener('click', clearData);
 dataStore();
 
 function clearData(evt) {
-  localStorage.clear(evt);
-  backBtn.removeEventListener(evt);
+  localStorage.removeItem(LOCAL_KEY); // delete localKey
+  // backBtn.removeEventListener(evt); !!!! DELETE ALL DATA!!!! WARNING!!
 }
 
 function onSubmitBtn(event) {
